@@ -53,8 +53,11 @@ El inconveniente de utilizar la PlayCDN de Tailwind es que no puedo generar clas
 Luego de tener una version base, lo publico y configuro Github Pages incluso cuando aun falta la version mobile, solo para tener automatizado ese paso y verificar que lo actual no se haya roto.
 Para la version mobile creare un archivo responsive.css donde organizare los media queries, aun asi, Tailwind ya provee diferenciadores como ":md" por lo que me ahorrara algo de trabajo.
 
+![image](https://github.com/cristianjuarezz/parcial-virbela/assets/84170516/7ff06e24-4813-4774-b794-046fe3e1881a)
+![image](https://github.com/cristianjuarezz/parcial-virbela/assets/84170516/1daf76a4-f18c-43d5-9e33-8537a4484f49)
+![image](https://github.com/cristianjuarezz/parcial-virbela/assets/84170516/1b3195f1-3653-4661-9d56-a19b7523648f)
 
-
+Separo los queries y properties en archivos diferentes para que sea facil de trabajar. Realmente Tailwind hizo la mayor parte del responsive.
 
 
 
