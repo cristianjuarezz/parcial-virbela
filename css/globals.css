@@ -129,6 +129,7 @@ footer .cta{
 }
 .cta-secondary{
   background: #ffffff00;
+  backdrop-filter: blur(6px);
 }
 .cta-secondary:hover{
   background: #ffffffff;
