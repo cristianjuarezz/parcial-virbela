@@ -1,0 +1,26 @@
+{
+  "name": "parcial-virbela",
+  "version": "1.0.0",
+  "description": "Para este proyecto, nos contratan desde una plataforma de e-learning para desarrollar una landing page para el evento del año de la plataforma de e-learning en el metaverso Virbela. Figma: https://www.figma.com/file/9aZr4JRG06JCbJAkKAKUYc/Parcial?type=design&node-id=0%3A1&t=fkjF2JjD24vQd2SZ-1",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/gl.css -o css/tw.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristianjuarezz/parcial-virbela.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristianjuarezz/parcial-virbela/issues"
+  },
+  "homepage": "https://github.com/cristianjuarezz/parcial-virbela#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.2",
+    "watch": "^1.0.2"
+  }
+}
