@@ -53,6 +53,7 @@ input{
   outline: none;
   border: 1px solid white;
   background: transparent;
+  width: 100%;
 }
 iframe{
   min-height: 50vh;
@@ -65,7 +66,7 @@ button:hover{
   text-shadow: 0px 0px 8px #ffffff66;
 }
 #details{
-  grid-template-columns: 1fr 4fr
+  grid-template-columns: 1fr 3fr
 }
 .hero{
   display: grid;
@@ -117,6 +118,7 @@ footer .cta{
 }
 .cta{
   background: white;
+  backdrop-filter: blur(16px);
 }
 .cta:hover{
   background: var(--cta-hover);
@@ -170,31 +172,5 @@ footer .cta{
   --img-scale: 1.05;
   z-index: 10;
 }
-@property --angle {
-  syntax: '<angle>';
-  inherits: false;
-  initial-value: 115.12deg;
-}
-@property --bg-color-a {
-  syntax: '<color>';
-  inherits: false;
-  initial-value: #A1356F;
-}
-@property --bg-color-b {
-  syntax: '<color>';
-  inherits: false;
-  initial-value:#5643BE;
-}
-@property --bg-color-c {
-  syntax: '<color>';
-  inherits: false;
-  initial-value: #336CD2;
-}
-@keyframes body-bg-rot{
-  0%{
-    --angle: 145.12deg;
-  }
-  100%{
-    --angle: 65.12deg;
-  }
-}
+@import "properties.css";
+@import "responsive.css";
