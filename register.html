@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Metaverse: A glimpse into the future of work</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/globals.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="py-12 px-36 text-xl">
+        <ul class="flex gap-2">
+          <li><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.virbela.com%2Fgo%2Fmetaverse-future-of-work%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial-share%26utm_campaign%3Dmetaverse-panel-2021-04"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a target="_blank" href="https://twitter.com/intent/tweet?text=Join+a+one-of-a-kind+interactive+panel+discussion+with+the+founders+of+Second+Life%2C+Virbela%2C+and+other+thought+leaders+in+VR%2FAR+space.+&url=https%3A%2F%2Fwww.virbela.com%2Fgo%2Fmetaverse-future-of-work%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial-share%26utm_campaign%3Dmetaverse-panel-2021-04"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.virbela.com%2Fgo%2Fmetaverse-future-of-work%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial-share%26utm_campaign%3Dmetaverse-panel-2021-04"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li class="ml-12"><button id="theme-btn" onclick="themeMode()"></button></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="flex max-h-screen">
+      <section class="grid pl-20" id="details">
+        <article class=" px-16 bg-neutral-900 pt-36">
+          <h2 class="text-3xl font-semibold mb-8">REGISTER FORM</h2>
+          <form class="flex flex-col" action="mailto:gabriel.molina@unahur.edu.ar" method="post" enctype="text/plain">
+            Name
+            <input type="text" name="name"><br>
+            E-mail
+            <input type="text" name="mail"><br>
+            Comment
+            <input type="textarea" cols="30" name="comment"><br><br>
+            <input class="cta-secondary w-100" type="submit" value="Send">
+          </form>
+          <a href="index.html"><i class="fa-solid fa-arrow-left mr-2 mt-6"></i>Home</a>
+        </article>
+        <article class="flex flex-col overflow-y-scroll px-20 py-24">
+          <iframe class="w-100" height="400" src="https://www.youtube.com/embed/iH6Lj1AKi3o" title="The Metaverse: A glimpse into the future of work" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <a class="text-right" href="#footer">Footer<i class="fa-solid fa-arrow-right ml-2 mt-6 mb-12"></i></a>
+        </article>
+      </section>
+      <footer>
+        <section id="footer" class="flex px-36 pt-36 relative">
+          <iframe class="h-50 mb-24 mr-8" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6331.93673723157!2d-122.15564528161974!3d37.485072805869116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smeta%20hq!5e0!3m2!1ses-419!2sar!4v1683914005672!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div>
+            <h1 class="font-bold text-5xl text-right">THE METAVERSE</h1>
+            <h3 class="text-2xl text-right ml-auto">A GLIMPSE INTO THE FUTURE OF WORK</h3>
+            <div class="flex gap-6 justify-end ml-auto mt-12 text-right">
+              <a class="cta-secondary" target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NjBzcW9uYmNxY29zZm5vcGM0cWY4bzNpajQgY3Jpc3RpYW5qdWFyZXpkZXZAbQ&amp;tmsrc=cristianjuarezdev%40gmail.com">Add to Google Calendar</a>
+              <a class="cta font-semibold" href="register.html">Register Now</a>
+            </div>
+            <h3 class="font-semibold text-xl mb-4 text-right mt-6">We are waiting for you!</h3>
+          </div>
+          <a href="#details" class="absolute bottom-8 right-40"><i class="fa-solid fa-arrow-left mr-2 mt-6"></i>Back</a>
+        </section>
+      </footer>
+    </main>
+  </body>
+  <script src="js/main.js"></script>
+</html>
