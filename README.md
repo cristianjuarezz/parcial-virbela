@@ -8,6 +8,9 @@ Figma: https://www.figma.com/file/9aZr4JRG06JCbJAkKAKUYc/Parcial?type=design&nod
 ♥ TailwindCSS
 ♣ Css
 ☺ Figma
+• PostCSS
+• NPM
+• Git
 
 # Modo de trabajo
 TailwindCSS es un framework diseñado para trabajar con la metodología Mobile First, sin embargo, decidí no trabajar de esta manera porque primero diseñé la versión de escritorio en donde solo establecí una base para trabajar e improvisar a lo largo del proyecto, ya que era necesario para llegar en tiempo a la entrega.
@@ -58,6 +61,9 @@ Para la version mobile creare un archivo responsive.css donde organizare los med
 ![image](https://github.com/cristianjuarezz/parcial-virbela/assets/84170516/1b3195f1-3653-4661-9d56-a19b7523648f)
 
 Separo los queries y properties en archivos diferentes para que sea facil de trabajar. Realmente Tailwind hizo la mayor parte del responsive.
+
+![image](https://github.com/cristianjuarezz/parcial-virbela/assets/84170516/0456d9c3-a723-49ed-acfd-3fd81b6a6620)
+Compilo Tailwind para produccion y ya esta listo para hacer el deploy.
 
 
 
