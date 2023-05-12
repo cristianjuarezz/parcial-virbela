@@ -10,7 +10,7 @@
   </head>
   <body>
     <header>
-      <nav class="py-12 px-36 text-xl">
+      <nav class="py-12 px-12 md:px-36 text-xl">
         <ul class="flex gap-2">
           <li><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.virbela.com%2Fgo%2Fmetaverse-future-of-work%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial-share%26utm_campaign%3Dmetaverse-panel-2021-04"><i class="fa-brands fa-facebook"></i></a></li>
           <li><a target="_blank" href="https://twitter.com/intent/tweet?text=Join+a+one-of-a-kind+interactive+panel+discussion+with+the+founders+of+Second+Life%2C+Virbela%2C+and+other+thought+leaders+in+VR%2FAR+space.+&url=https%3A%2F%2Fwww.virbela.com%2Fgo%2Fmetaverse-future-of-work%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial-share%26utm_campaign%3Dmetaverse-panel-2021-04"><i class="fa-brands fa-twitter"></i></a></li>
@@ -29,13 +29,13 @@
             <a class="cta font-semibold" href="register.html">Register Now</a>
           </div>
         </article>
-        <article>
+        <article class="hidden md:block">
           <h2 class="text-3xl text-center">THE ENTERPRISE METAVERSE IS HERE</h2>
           <p class="font-semibold text-center mt-12">Join a <span>one-of-a-kind</span> interactive panel discussion with the founders of Virbela, Second Life, High Fidelity, and other thought leaders in XR</p>
         </article>
       </section>
-      <section class="grid pl-20" id="details">
-        <article class=" px-16 bg-neutral-900 pt-36">
+      <section class="grid md:pl-20" id="details">
+        <article class="px-10 md:px-16 bg-neutral-900 pt-36">
           <h2 class="text-3xl font-semibold mb-8">EVENT DETAILS</h2>
           <h4><i class="fa-solid fa-calendar mr-4 mb-5"></i>May 13th, 12 PM PST</h4>
           <h4><i class="fa-solid fa-location-dot mr-4 mb-5"></i>Virbela Open Campus</h4>
@@ -46,9 +46,12 @@
             <a class="cta text-neutral-900 font-semibold" href="register.html">Register Now</a>
             <a class="cta-secondary" target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NjBzcW9uYmNxY29zZm5vcGM0cWY4bzNpajQgY3Jpc3RpYW5qdWFyZXpkZXZAbQ&amp;tmsrc=cristianjuarezdev%40gmail.com">Add to Google Calendar</a>
           </div>
-          <a href="#home"><i class="fa-solid fa-arrow-left mr-2 mt-6"></i>Back</a>
+          <div class="flex justify-between">
+            <a href="#home"><i class="fa-solid fa-arrow-left mr-2 mt-6"></i>Back</a>
+            <a href="#footer" class="md:hidden">More<i class="fa-solid fa-arrow-right mr-2 mt-6"></i></a>
+          </div>
         </article>
-        <article class="flex flex-col overflow-y-scroll px-20">
+        <article class="flex flex-col overflow-y-scroll px-20 hidden md:flex">
           <p class="font-bold text-2xl mb-12 mt-20">The Metaverse is already here. Virtual worlds like Roblox, Minecraft, and Fortnite have billions of users and economies that rival small countries</p>
           <div class="flex justify-center showcase relative w-100 mt-12">
             <img src="https://assets-global.website-files.com/5f50f7cde6ed0e3e54c7fb94/6086ec69a650830686362d5c_virbela-speakeasy.jpg" alt="Stage in the Metaverse ;)">
@@ -63,22 +66,22 @@
             <span>Why has the Metaverse become relevant?</span>
             <span>What role will it play in the future of work??</span>
           </div>
-          <a href="#footer">More info at the footer<i class="fa-solid fa-arrow-right ml-2 mt-6 mb-12"></i></a>
+          <a href="#footer" class="w-fit md:ml-auto">More info at the footer<i class="fa-solid fa-arrow-right ml-2 mt-6 mb-12"></i></a>
         </article>
       </section>
       <footer>
-        <section id="footer" class="flex px-36 pt-36 relative">
-          <iframe class="h-50 mb-24 mr-8" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6331.93673723157!2d-122.15564528161974!3d37.485072805869116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smeta%20hq!5e0!3m2!1ses-419!2sar!4v1683914005672!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section id="footer" class="flex flex-col md:flex-row px-6 md:px-36 pt-36 relative">
+          <iframe class="h-50 mb-24 mr-8 hidden md:flex" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6331.93673723157!2d-122.15564528161974!3d37.485072805869116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smeta%20hq!5e0!3m2!1ses-419!2sar!4v1683914005672!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           <div>
             <h1 class="font-bold text-5xl text-right">THE METAVERSE</h1>
             <h3 class="text-2xl text-right ml-auto">A GLIMPSE INTO THE FUTURE OF WORK</h3>
-            <div class="flex gap-6 justify-end ml-auto mt-12 text-right">
+            <div class="flex gap-2 md:gap-6 justify-end ml-auto mt-12 text-right">
               <a class="cta-secondary" target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NjBzcW9uYmNxY29zZm5vcGM0cWY4bzNpajQgY3Jpc3RpYW5qdWFyZXpkZXZAbQ&amp;tmsrc=cristianjuarezdev%40gmail.com">Add to Google Calendar</a>
               <a class="cta font-semibold" href="register.html">Register Now</a>
             </div>
             <h3 class="font-semibold text-xl mb-4 text-right mt-6">We are waiting for you!</h3>
           </div>
-          <a href="#details" class="absolute bottom-8 right-40"><i class="fa-solid fa-arrow-left mr-2 mt-6"></i>Back</a>
+          <a href="#details" class="absolute bottom-8 md:right-40"><i class="fa-solid fa-arrow-left mr-2 mt-6"></i>Back</a>
         </section>
       </footer>
     </main>

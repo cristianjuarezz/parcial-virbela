@@ -1,0 +1,28 @@
+@property --angle {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 115.12deg;
+}
+@property --bg-color-a {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: #A1356F;
+}
+@property --bg-color-b {
+  syntax: '<color>';
+  inherits: false;
+  initial-value:#5643BE;
+}
+@property --bg-color-c {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: #336CD2;
+}
+@keyframes body-bg-rot{
+  0%{
+    --angle: 145.12deg;
+  }
+  100%{
+    --angle: 65.12deg;
+  }
+}
